@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.100" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="7.1.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="11.0.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.9.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HorizonUniversity.AI.FinancialAid.Application\HorizonUniversity.AI.FinancialAid.Application.csproj" />
+    <ProjectReference Include="..\HorizonUniversity.AI.FinancialAid.Domain\HorizonUniversity.AI.FinancialAid.Domain.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

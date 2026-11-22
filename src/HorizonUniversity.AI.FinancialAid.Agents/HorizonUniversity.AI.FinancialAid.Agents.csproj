@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Agents.AI" Version="1.28.0" />
+    <PackageReference Include="Microsoft.Extensions.AI" Version="11.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HorizonUniversity.AI.FinancialAid.Application\HorizonUniversity.AI.FinancialAid.Application.csproj" />
+    <ProjectReference Include="..\HorizonUniversity.AI.FinancialAid.Domain\HorizonUniversity.AI.FinancialAid.Domain.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

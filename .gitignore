@@ -1,68 +1,163 @@
-# Prerequisites
-*.d
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# ==========================================
+# .NET / C# - Enterprise Git Ignore
+# ==========================================
 
-# Precompiled Headers
-*.gch
-*.pch
+# Build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+out/
+artifacts/
+publish/
 
-# Linker files
-*.ilk
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.sln.ide
 
-# Debugger Files
-*.pdb
+# Visual Studio Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/settings.json
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-*.so.*
+# JetBrains Rider / ReSharper
+.idea/
+*.sln.iml
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
 
-# Fortran module files
-*.mod
-*.smod
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+!packages/build/
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# .NET generated files
+project.lock.json
+project.fragment.lock.json
+*.generated.cs
+GeneratedFiles/
 
-# Executables
-*.exe
-*.out
-*.app
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]enchmark[Rr]esults/
+coverage/
+coverage.*
+*.coverage
+*.coveragexml
 
-# Build directories
-[Bb]uild/
-[Bb]uild-*/
-cmake-build-*/
+# Logs
+*.log
+logs/
+Log/
+LogFiles/
 
-# CMake generated files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-install_manifest.txt
-compile_commands.json
+# Application configuration - secrets
+.env
+.env.*
+!.env.example
+!.env.template
+secrets.json
+appsettings.Local.json
+appsettings.Development.Local.json
+
+# Certificates and keys
+*.pfx
+*.p12
+*.key
+*.pem
+*.crt
+*.cer
+*.jks
+*.keystore
+
+# Database files
+*.mdf
+*.ldf
+*.db
+*.sqlite
+*.sqlite3
+
+# Runtime / temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+*.cache
+*.pid
+*.seed
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Azure
+.azure/
+.azure-pipelines-local/
+
+# Node / Frontend dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Python / AI / ML generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# AI models and vector databases
+*.gguf
+*.bin
+models/
+model-cache/
+vector-data/
+chroma/
+faiss-index/
+pinecone-local/
+
+# Operating system
+.DS_Store
+Thumbs.db
+Desktop.ini
 
 # Temporary files
-*.tmp
-*.log
-*.bak
 *.swp
+*.swo
+*~
+*.orig
+*.rej
 
-# vcpkg
-vcpkg_installed/
+# Deployment packages
+*.zip
+*.tar
+*.gz
+*.7z
 
-# debug information files
-*.dwo
-
-# test output & cache
-Testing/
-.cache/
+# Keep important project files
+!README.md
+!LICENSE
+!global.json
+!Directory.Build.props
+!Directory.Build.targets
+!Directory.Packages.props
+!NuGet.Config

@@ -1,0 +1,18 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/HorizonUniversity.AI.FinancialAid.Agents/HorizonUniversity.AI.FinancialAid.Agents.csproj" />
+    <Project Path="src/HorizonUniversity.AI.FinancialAid.API/HorizonUniversity.AI.FinancialAid.API.csproj" />
+    <Project Path="src/HorizonUniversity.AI.FinancialAid.Application/HorizonUniversity.AI.FinancialAid.Application.csproj" />
+    <Project Path="src/HorizonUniversity.AI.FinancialAid.Contracts/HorizonUniversity.AI.FinancialAid.Contracts.csproj" />
+    <Project Path="src/HorizonUniversity.AI.FinancialAid.Domain/HorizonUniversity.AI.FinancialAid.Domain.csproj" />
+    <Project Path="src/HorizonUniversity.AI.FinancialAid.Infrastructure/HorizonUniversity.AI.FinancialAid.Infrastructure.csproj" />
+    <Project Path="src/HorizonUniversity.AI.FinancialAid.Worker/HorizonUniversity.AI.FinancialAid.Worker.csproj" />
+    <Project Path="src/HorizonUniversity.AI.FinancialAid.Workflows/HorizonUniversity.AI.FinancialAid.Workflows.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/FinancialAid.AgentTests/FinancialAid.AgentTests.csproj" />
+    <Project Path="tests/FinancialAid.ArchitectureTests/FinancialAid.ArchitectureTests.csproj" />
+    <Project Path="tests/FinancialAid.IntegrationTests/FinancialAid.IntegrationTests.csproj" />
+    <Project Path="tests/FinancialAid.UnitTests/FinancialAid.UnitTests.csproj" />
+  </Folder>
+</Solution>
